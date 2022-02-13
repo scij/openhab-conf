@@ -1,5 +1,6 @@
 # openHAB configuration [@florian-h05](https://github.com/florian-h05)
 
+# This branch holds the DEPRECATED libraries for NashornJS.
 
 ***
 ## Table of Contents
@@ -22,13 +23,13 @@
 
 Library functions, classes and modules to reuse in JavaScript rules. My focus on building these tools is to solve often needed tasks in a efficient and simple way. Providing fully realized capabilities is not the goal of this tools.
 
-Also have a look at the npm package [florianh-openhab-tools](https://www.npmjs.com/package/florianh-openhab-tools).
+Those are deprecated due to the new ones for the JS Scripting add-on (GraalJS).
+See [openhab-js-tools](https://github.com/florian-h05/openhab-js-tools) for GraalJS-compatible libs/modules.
 
 ### 1.1 Prerequisites
 
 * openHAB 3.x
 * __IMPORTANT:__ This code is not compatible with the GraalVM JavaScript add-on.
-* __NOTE__: The rules tools will be brought to GraalVM, either by being included in the [openHAB JavaScript Library](https://github.com/openhab/openhab-js) or by getting moved to the npm package [florianh-openhab-tools](https://www.npmjs.com/package/florianh-openhab-tools).
 
 Note: these tools are created for use in UI rules and scripts.
 
