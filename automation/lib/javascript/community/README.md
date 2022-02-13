@@ -1,5 +1,7 @@
 # JavaScript rules tools
 
+# DEPRECATED: Head over to [openhab-js-tools](https://github.com/florian-h05/openhab-js-tools) for library functions.
+
 Library functions, classes and modules to reuse in JavaScript rules. My focus on building these tools is to solve often needed tasks in a efficient and simple way. Providing fully realized capabilities is not the goal of this tools.
 
 ## Table of Contents
@@ -9,7 +11,6 @@ Library functions, classes and modules to reuse in JavaScript rules. My focus on
 - [3. Item Control Utility](#3-item-control-utility)
   - [Create an instance of the Item Control Utility](#create-an-instance-of-the-item-control-utility)
   - [volumeDimming](#volumedimming)
-- [4. Scene Engine](#4-scene-engine)
 
 ***
 ## 1. Prerequisites
@@ -66,8 +67,3 @@ This does the following:
 * get the target volume from the dummy item `Amplifier_Volume`
 * increase or decrease the real volume (item `Amplifier_RealVolume`) by 1 step every 1/3 second
 * update the state of the dummy item after each step
-
-## 4. Scene Engine
-***
-Please note that the sceneEngine has moved to the npm package [florianh-openhab-tools](https://www.npmjs.com/package/florianh-openhab-tools) 
-and is now compatible with the GraalVM JavaScript addon.
