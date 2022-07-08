@@ -1,5 +1,6 @@
 # openHAB configuration [@florian-h05](https://github.com/florian-h05)
 
+# This branch holds the DEPRECATED scripts for NashornJS.
 
 ***
 ## Table of Contents
